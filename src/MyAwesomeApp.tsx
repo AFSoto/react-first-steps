@@ -18,14 +18,14 @@ const firtName = 'andres'
 export function MyAwesomeApp(){
     
     return(
-        <>
-        <h1>{firtName}</h1>
+        <div data-testid="div-app">
+        <h1 data-testid="first-name">{firtName}</h1>
         <h3>{lastName}</h3>
-        <p>{favoriteGames.join(', ')}</p>
+        <p className="mi-clase-favorita">{favoriteGames.join(', ')}</p>
         <h1>{isActive? 'activo':'no activo'}</h1>
         <p
         style={myStyles}
         >{JSON.stringify(address)}</p>
-        </>
+        </div>
     )
 }

@@ -1,0 +1,59 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="div-app"
+  >
+    <h1
+      data-testid="first-name"
+    >
+      andres
+    </h1>
+    <h3>
+      soto
+    </h3>
+    <p
+      class="mi-clase-favorita"
+    >
+      mario, free fire, lol
+    </p>
+    <h1>
+      no activo
+    </h1>
+    <p
+      style="background-color: red; color: white; border-radius: 50px; padding: 50px; margin-top: 10px;"
+    >
+      {"zipCode":"ABC-123","country":"colombia"}
+    </p>
+  </div>
+</div>
+`;
+
+exports[`MyAwesomeApp > should match snapshot 2`] = `
+<div
+  data-testid="div-app"
+>
+  <h1
+    data-testid="first-name"
+  >
+    andres
+  </h1>
+  <h3>
+    soto
+  </h3>
+  <p
+    class="mi-clase-favorita"
+  >
+    mario, free fire, lol
+  </p>
+  <h1>
+    no activo
+  </h1>
+  <p
+    style="background-color: red; color: white; border-radius: 50px; padding: 50px; margin-top: 10px;"
+  >
+    {"zipCode":"ABC-123","country":"colombia"}
+  </p>
+</div>
+`;

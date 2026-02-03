@@ -42,7 +42,7 @@ export const ItemConter = ({name,quantity = 1}:Props,) => {
         className="item-text"
         style={{
             // width:150,
-            color:count > 3 ? "red" : "black"
+            color:count == 1 ? "red" : "black"
         }} 
         >{name}</span>
         <button
