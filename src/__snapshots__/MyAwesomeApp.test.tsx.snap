@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`MyAwesomeApp > should match snapshot 1`] = `
+exports[`MyAwesomeApp > should match snapchot - container 1`] = `
 <div>
   <div
     data-testid="div-app"
@@ -30,7 +30,7 @@ exports[`MyAwesomeApp > should match snapshot 1`] = `
 </div>
 `;
 
-exports[`MyAwesomeApp > should match snapshot 2`] = `
+exports[`MyAwesomeApp > should match snapchot - screen 1`] = `
 <div
   data-testid="div-app"
 >

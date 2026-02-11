@@ -1,4 +1,5 @@
-import { useState, type CSSProperties } from "react"
+// el useState es un hook que nos sirve para cuando el estado cambia react renderiza de nuevo
+import { useState, type CSSProperties } from "react";
 
 
 
@@ -19,6 +20,9 @@ import styles from "./ItemConter.module.css";
 
 export const ItemConter = ({name,quantity = 1}:Props,) => {
 
+//   count → valor actual
+// setCount → función para cambiarlo
+// quantity → valor inicial
   const [count, setCount] = useState(quantity)
   
   const handleadd = () =>{
@@ -49,7 +53,7 @@ export const ItemConter = ({name,quantity = 1}:Props,) => {
         // onMouseEnter={() => console.log(`mouse enter ${name}`)}
         onClick={handleadd}
         >+1</button>
-        <span>{count}</span>
+        <span data-testid='count'>{count}</span>
         <button
         onClick={handlesubtract}
         >-1</button>
